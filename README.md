@@ -53,7 +53,7 @@ A foundational IAM structure was implemented to address these challenges:
     4.  Verifying administrative access while in `AdminRole`.
     5.  Switching back to `OperatorUser`.
     
-    [▶️ Watch IAM Setup & Role Switch Demo]([link-to-your-video](https://youtu.be/Wb8gZA3zzmw))
+    [▶️ Watch IAM Setup & Role Switch Demo](https://youtu.be/Wb8gZA3zzmw)
     
 ### 📈 Demonstrated Security Improvements & Operational Efficiency
 
