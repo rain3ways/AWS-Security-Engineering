@@ -43,9 +43,13 @@ A foundational IAM structure was implemented to address these challenges:
     * Enforced password complexity and mandatory password change on first login for new IAM users.
 
 #### 🏗️ IAM Structure Diagram
+
 * A diagram illustrating the relationships: Root User (secured) -> AdminUser (in AdminGroup) -> Assumes -> AdminRole. And OperatorUser -> Assumes -> AdminRole.
+  
  ![IAM Structure Diagram](/screenshots/iam-structure-diagram.png)
+
 #### 🎬 Video Walkthrough: Secure Login & Role Switching
+
 * A short video demonstrating:
     1.  Logging in as `AdminUser`.
     2.  Logging out and logging in as `OperatorUser` (showing limited/no direct permissions).
@@ -53,7 +57,7 @@ A foundational IAM structure was implemented to address these challenges:
     4.  Verifying administrative access while in `AdminRole`.
     5.  Switching back to `OperatorUser`.
     
-    [▶️ Watch IAM Setup & Role Switch Demo](https://youtu.be/Wb8gZA3zzmw)
+- [▶️ Watch IAM Setup & Role Switch Demo](https://youtu.be/Wb8gZA3zzmw)
     
 ### 📈 Demonstrated Security Improvements & Operational Efficiency
 
